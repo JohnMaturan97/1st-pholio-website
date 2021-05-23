@@ -26,9 +26,9 @@ $(document).ready(() => {
 
   //   typedJS
   let typed = new Typed(".typing", {
-    strings: ["Full-stack", "Web", "Developer"],
+    strings: ["Full Stack Developer","Software Engineer"],
     typeSpeed: 100,
-    backSpeed: 60,
+    backSpeed: 100,
     loop: true,
   });
 });

@@ -9,7 +9,7 @@
 }
 
 p {
-  color: #757575;
+  color: #1d1b1b;
 }
 
 /* navbar style*/
@@ -51,30 +51,34 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
+  color:#1d1b1b;
 }
 
 .navbar .logo .logo-text {
   font-family: "Roboto+Condensed", sans-serif;
   font-weight: 600;
   margin-top: 0.7rem;
+  color:#1d1b1b;
 }
 
 .navbar .logo .logo-text .name {
   font-size: 1.2rem;
   margin-bottom: -0.6rem;
+  color: #1d1b1b;
 }
 
 .navbar .logo .logo-text .describ {
   margin-top: -0.2rem;
+  color: #1d1b1b;
 }
 
 .navbar .logo .logo-text hr {
-  color: #757575;
+  color: #070505;
 }
 
 .navbar.sticky {
   height: 4.6rem;
-  background: turquoise;
+  background: #666565;
 }
 
 .navbar .max-width {
@@ -87,7 +91,7 @@ p {
 .navbar .logo a {
   height: 100%;
   display: flex;
-  color: #020100;
+  color: #000000;
   font-size: 1.3rem;
 }
 
@@ -102,7 +106,7 @@ p {
 
 .menu-btn i.active::before {
   content: "\f00d";
-  color: turquoise;
+  color: rgb(0, 0, 0);
 }
 
 .navbar .menu {
@@ -111,8 +115,8 @@ p {
   width: 100%;
   left: -100%;
   top: -3rem;
-  background: #020100;
-  color: whitesmoke;
+  background: #424242;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding-top: 9rem;
   transition: all 0.5s ease;
@@ -127,7 +131,7 @@ p {
 }
 .navbar .menu li a {
   display: inline-block;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   margin: 1.2rem 0;
   font-size: 3rem;
   text-decoration: none;
@@ -148,7 +152,7 @@ p {
 } */
 
 .navbar .menu li a:hover {
-  color: turquoise;
+  color: rgb(255, 255, 255);
 }
 
 /* nav-menu styling */
@@ -159,6 +163,7 @@ p {
   font-size: 1.6rem;
   cursor: pointer;
   transition: color 0.3s ease;
+  color: #181616
 }
 
 /* home-section styling */
@@ -167,7 +172,7 @@ p {
   background: url("../asset/image/folioimg.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
-  color: #020100;
+  color: #a86868;
   min-height: 500px;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -192,7 +197,7 @@ p {
 }
 
 .home .home-content .text-3 span {
-  color: turquoise;
+  color: #a86868;
 }
 
 .home .home-content .social-icon {
@@ -203,13 +208,13 @@ p {
 }
 .home .home-content .social-icon a {
   font-size: 2rem;
-  color: #757575;
+  color: #a0a0a0;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .home .home-content .social-icon a:hover {
-  color: turquoise;
+  color: rgb(97, 97, 97);
 }
 
 /* about-section-styling */
@@ -221,8 +226,11 @@ p {
   font-family: "poppins", sans-serif;
 }
 
+
+
 section .title {
   position: relative;
+  color: #131111;
   font-size: 1.9rem;
   font-weight: 600;
   margin-bottom: 2.3rem;
@@ -238,22 +246,18 @@ section .title::before {
   left: 50%;
   width: 10rem;
   height: 0.2rem;
-  background: black;
+  background: rgb(185, 181, 181);
   transform: translateX(-50%);
 }
 section .title::after {
   font-size: 1.4rem;
-  color: turquoise;
+  color: rgb(210, 223, 221);
   position: absolute;
   bottom: -1.1rem;
   left: 50%;
   padding: 0.3rem;
-  background: white;
+  background: rgb(255, 255, 255);
   transform: translateX(-50%);
-}
-
-.about .title::after {
-  content: "who I am";
 }
 
 .about .about-content,
@@ -281,7 +285,7 @@ section .title::after {
 
 .about .about-content .right {
   width: 55%;
-  color: #757575;
+  color: #962222;
 }
 
 .about .about-content .right .text {
@@ -293,11 +297,12 @@ section .title::after {
   font-family: "Source Code Pro", monospace;
   font-size: 1.1rem;
   font-weight: 500;
+  color: #962222;
 }
 
 .about .about-content .right i {
   font-size: 2rem;
-  color: #212121;
+  color: #962222;;
   padding-right: 1rem;
 }
 
@@ -306,21 +311,21 @@ section .title::after {
 }
 .about .about-content .right a {
   display: inline-block;
-  background: turquoise;
-  color: #020100;
+  background: rgb(194, 194, 194);
+  color: #962222;
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 500;
   padding: 0.2rem 1.2rem;
   margin-top: 1.2rem;
   border-radius: 6px;
-  border: 2px solid turquoise;
+  border: 2px solid rgb(0, 0, 0);
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-  background: whitesmoke;
+  background: #962222;
   transform: scale(1.05);
 }
 
@@ -328,18 +333,17 @@ section .title::after {
 .projects {
   padding: 2rem 0;
   color: whitesmoke;
-  background: #212121;
+  background: #666565;
 }
 
 .projects p {
   color: whitesmoke;
 }
 .projects .title::before {
-  background: whitesmoke;
+  background: #666565;
 }
 .projects .title::after {
-  background: #212121;
-  content: "What I made";
+  background: #666565;
 }
 
 .projects .projects-content {
@@ -401,14 +405,17 @@ section .title::after {
   width: 18rem;
 }
 .skills .title::after {
-  content: "Frameworks & Languages";
+  content: "Frameworks / Languages";
+  color:  #962222;
 }
 
 .skills .skills-content .column {
   width: calc(45% - 2rem);
 }
 
-.skills .skills-content .left .text {
+/*Skills : Left Side Side*/
+
+/*.skills .skills-content .left .text {
   line-height: 1.8rem;
   font-size: 1.5rem;
   font-weight: 600;
@@ -422,7 +429,7 @@ section .title::after {
 
 .skills .skills-content .left a {
   display: inline-block;
-  background: turquoise;
+  background: rgb(48, 51, 51);
   color: #020100;
   text-decoration: none;
   font-size: 1.3rem;
@@ -430,7 +437,7 @@ section .title::after {
   padding: 0.2rem 1.2rem;
   margin-top: 1.2rem;
   border-radius: 6px;
-  border: 2px solid turquoise;
+  border: 2px solid #020100;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
 }
@@ -438,7 +445,11 @@ section .title::after {
 .skills .skills-content .left a:hover {
   background: whitesmoke;
   transform: scale(1.05);
+  
+
 }
+
+/*Skills : Right Side*/
 
 .skills .skills-content .right .bars {
   margin-bottom: 1rem;
@@ -456,18 +467,15 @@ section .title::after {
   font-weight: 500;
 }
 
-.skills .skills-content .right span i {
-  color: #ffd43b;
-}
 
-.skills .skills-content .right .lines {
+/*.skills .skills-content .right .lines {
   position: relative;
   background: silver;
   width: 100%;
-  height: 0.3rem;
+  height: 0.1rem;
 }
 
-.skills .skills-content .right .lines::before {
+/*.skills .skills-content .right .lines::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -476,7 +484,7 @@ section .title::after {
   background: turquoise;
 }
 
-.skills .skills-content .right .html::before {
+/*.skills .skills-content .right .html::before {
   width: 80%;
 }
 .skills .skills-content .right .css::before {
@@ -487,12 +495,15 @@ section .title::after {
 }
 .skills .skills-content .right .python::before {
   width: 60%;
-}
+}*/
+
+
 
 /* contact me section styling */
 
 .contact .title::after {
   content: "Get in touch";
+  color: #962222;
 }
 
 .contact .contact-content .column {
@@ -523,7 +534,7 @@ section .title::after {
 }
 
 .contact .contact-content .row i {
-  color: turquoise;
+  color: rgb(22, 24, 24);
   font-size: 1.5rem;
 }
 
@@ -582,18 +593,18 @@ section .title::after {
   width: 100%;
   height: 100%;
   padding: 0.6rem 0.2rem;
-  background: turquoise;
+  background: rgb(199, 196, 196);
   font-weight: 600;
   font-size: 1.2rem;
   border-radius: 6px;
-  border: 2px solid turquoise;
+  border: 2px solid rgb(22, 24, 24);
   outline: none;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .contact .right form .button button:hover {
-  background: whitesmoke;
+  background: rgb(26, 25, 25);
 }
 .contact .right form button:active {
   transform: scale(0.95);
@@ -604,7 +615,7 @@ footer {
   margin-top: 3rem;
   /* height: 200px; */
   font-family: "Poppins", sans-serif;
-  background: turquoise;
+  background: #666565;
   padding: 20px 25px;
   color: whitesmoke;
   display: flex;
@@ -663,7 +674,7 @@ footer hr {
 
   .menu-btn i.active::before {
     content: "\f00d";
-    color: white;
+    color:  #212121;
   }
 
   /* .navbar .menu {
