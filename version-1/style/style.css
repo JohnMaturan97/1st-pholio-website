@@ -285,7 +285,7 @@ section .title::after {
 
 .about .about-content .right {
   width: 55%;
-  color: #962222;
+  color: #666565;
 }
 
 .about .about-content .right .text {
@@ -297,7 +297,7 @@ section .title::after {
   font-family: "Source Code Pro", monospace;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #962222;
+  color: #666565;
 }
 
 .about .about-content .right i {
